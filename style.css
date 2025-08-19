@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}body{
+    overflow-x: hidden;
+}
+.nav-item{
+    color: green;
+}
+.years{
+    color: green;
+}
+.carousel.slide {
+    background-color:whitesmoke;
+}
+.customer.section{
+    background-color: whitesmoke;
+}
+.get-demo{
+    background-color: whitesmoke;
+}
+.helping-local.section{
+    background-color: whitesmoke;
+}
+.none{
+    list-style: none;
+    padding: 0;
+}
+.nav ul li a:hover {
+      color: lightseagreen;
+      transform: translateY(-5px); /* moves up */
+    }
+.nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      position: relative;
+      padding: 5px 0;
+      transition: all 0.3s ease;  /* smooth animation */
+    }
