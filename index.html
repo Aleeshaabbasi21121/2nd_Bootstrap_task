@@ -7,109 +7,63 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   <link rel="stylesheet" href="style.css">
-    <title>Nexcent websites</title>
+
+    <title>Websites Nexcent</title>
+    <link rel="stylesheet" href="style1.css">
   </head>
   <body>
-    <!-- NAVBAR -->
-     <header id="Home">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light px-4 border-bottom fixed-top text-success">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-5 border-bottom fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand fs-2" href="#"><img src="images/Logo.png" class="img-fluid logo" alt="Nexcent Logo"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand fs-2" href="#">
+        <img src="images/Logo.png" class="img-fluid" alt="Logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav  ms-auto mb-2 mb-lg-0 fs-5 text-center text-success">
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav ms-auto mb-2 fs-8 mb-lg-0 text-center navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#features">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#community">Community</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing">Pricing</a>
-            </li>
-          </ul>
-            <button class="btn btn-outline-success bg-success text-light" type="submit">Register Now →</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-
-     <!-- hero section -->
-    <div id="carouselExampleIndicators" class="carousel slide py-5">
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Features</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Community</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Blog</a>
+        </li> <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+        </li>
+  <form class="container-fluid justify-content-start">
+    <button class="btn btn-outline-success bg-success text-white me-2" type="button">Register Now →</button>
+  </form>
+        </ul>
+    </div>
+  </div>
+</nav>
+<!--End Navbar-->
+ <!-- hero section -->
+    <div id="carouselExampleIndicators" class="carousel slide py-5  ">
       <div class="carousel-indicators text-light ">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1" ></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2 "></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-inner">
+      <div class="carousel-inner ">
         <div class="carousel-item active">
           <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center p-5 ">
               <div class="col-lg-6 fonts">
                 <h1>Lessons and insights <br> <span class="years">from 8 years</span></h1>
                 <p class="mt-3">Where to grow your business as a photographer: site or social media?</p>
-
                 <div class="mt-4">
                   <button class="btn btn-outline-success hero-btn bg-success text-light" data-bs-toggle="tooltip"
                     data-bs-title="Go Fast">Register</button>
                 </div>
-
               </div>
               <div class="col-lg-6 d-flex justify-content-end hero-center py-5 ">
                 <img src="images/Illustration.png" class="img-fluid hero-img">
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6 fonts">
-                <h1>Key Takeaways Growth <br> <span class="years">from 8 years</span></h1>
-                <p class="mt-3">Where to grow your business as a photographer: site or social media?</p>
-
-                <div class="mt-4">
-                  <button class="btn btn-outline-success hero-btn bg-success text-light" data-bs-toggle="tooltip"
-                    data-bs-title="Go Fast">Join us</button>
-                </div>
-
-              </div>
-              <div class="col-lg-6 d-flex justify-content-end hero-center py-5">
-                <img src="images/Illustration.png" class="img-fluid hero-img">
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6 fonts">
-                <h1>Growth Strategies <br> <span class="years">from 8 years</span></h1>
-                <p class="mt-3">Where to grow your business as a photographer: site or social media?</p>
-
-                <div class="mt-4">
-                  <button class="btn btn-outline-success hero-btn bg-success text-light" data-bs-toggle="tooltip"
-                    data-bs-title="Go Fast">Book us</button>
-                </div>
-
-              </div>
-              <div class="col-lg-6 d-flex justify-content-end hero-center py-5">
-                <img src="images/Illustration.png" class="img-fluid hero-img">
-
               </div>
             </div>
           </div>
@@ -117,16 +71,18 @@
       </div>
     </div>
   </header>
-    <!-- OUR CLIENTS SECTION -->
+  <!--End Hero Section-->
+
+   <!-- OUR CLIENTS SECTION -->
   <section class="our-clients section">
     <div class="container">
-      <div class="row justify-content-center text-center py-5">
+      <div class="row justify-content-center text-center ">
         <h2>Our Clients</h2>
         <p>We have been working with some Fortune 500+ clients</p>
       </div>
       <div class="clients-box text-center ">
         <img src="images/Logo (1).png" class="img-fluid clients-logo px-5">
-        <img src="images/Logo (2).png" class="img-fluid clients-logopx-5">
+        <img src="images/Logo (2).png" class="img-fluid clients-logo px-5">
         <img src="images/Logo (3).png" class="img-fluid clients-logo px-5">
         <img src="images/Logo (4).png" class="img-fluid clients-logo px-5">
         <img src="images/Logo (5).png" class="img-fluid clients-logo px-5">
@@ -135,11 +91,11 @@
       </div>
     </div>
   </section>
-
-    <!-- COMMUNITY -->
+<!--End Our Clients Section-->
+<!-- COMMUNITY -->
   <section class="community section" id="services">
     <div class="container">
-      <div class="row justify-content-center text-center py-5">
+      <div class="row justify-content-center text-center py-5 p-5">
         <h3>Manage your entire community <br>in a single system</h3>
         <p>Who is Nextcent suitable for?</p>
       </div>
@@ -151,7 +107,7 @@
                 <img src="images/Vector (1).png" alt="">
               </div>
               <h2>Membership Organisations</h2>
-              <p>Our membership management software provides full automation of membership renewals and payments</p>
+              <p>Our membership management software <br> provides full automation of  membership  <br> renewals and payments</p>
             </div>
           </div>
         </div>
@@ -162,7 +118,7 @@
                 <img src="images/Group 1.png" alt="">
               </div>
               <h2>National <br> Associations</h2>
-              <p>Our membership management software provides full automation of membership renewals and payments</p>
+              <p>Our membership management software <br>  provides full automation of membership <br> renewals  and payments</p>
             </div>
           </div>
         </div>
@@ -173,22 +129,23 @@
                 <img src="images/Group 2.png" alt="">
               </div>
               <h2>Clubs And <br> Groups</h2>
-              <p>Our membership management software provides full automation of membership renewals and payments</p>
+              <p>Our membership management software <br> provides full automation of membership <br> renewals and payments</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <!--End Community Section-->
 <!-- THREE YEARS SECTION -->
   <section class="three-years section">
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row align-items-center g-3 p-5">
         <div class="col-lg-6 d-flex justify-content-start year-center">
           <img src="images/Frame 35.png" class="img-fluid">
 
         </div>
-        <div class="col-lg-6 fonts">
+        <div class="col-lg-6 fonts ">
           <h1>The unseen of spending three years at Pixelgrade</h1>
           <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed
             accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
@@ -203,11 +160,12 @@
       </div>  
     </div>
   </section>
-  <!-- HELPING LOCAL BUSSINES -->
+ <!--End Three Years Section-->
+   <!-- HELPING LOCAL BUSSINES -->
   <section class="helping-local section" id="feature">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 d-flex justify-content-start">
+      <div class="row align-items-center ">
+        <div class="col-lg-6 d-flex justify-content-start p-5">
           <div class="helping">
             <h2>Helping a local <br><span style="color: green;">business reinvent itself</span></h2>
             <p>We reached here with our hard work and dedication</p>
@@ -228,7 +186,6 @@
               </div>
             </div>
 <!-- End Stats Item -->
-
             <div class="col-lg-6">
               <div class="stats-item d-flex">
                 <i class="fa-solid fa-cubes">
@@ -240,8 +197,7 @@
                 </div>
               </div>
             </div> 
-            <!-- End Stats Item -->
-
+<!-- End Stats Item -->
             <div class="col-lg-6">
               <div class="stats-item d-flex">
                 <i class="fa-solid fa-calendar-days">
@@ -253,7 +209,7 @@
                 </div>
               </div>
             </div>
-
+<!-- End Stats Item -->            
             <div class="col-lg-6">
               <div class="stats-item d-flex ">
                 <i class="fa-solid fa-credit-card">
@@ -270,16 +226,16 @@
       </div>
     </div>
   </section>
-
-  <!-- DESIGN YOUR SITE -->
-  <section class="three-years section">
+<!-- End Helping Local Business Section -->
+ <!-- DESIGN YOUR SITE -->
+  <section class="three-years section ">
     <div class="container">
-      <div class="row align-items-center gap">
+      <div class="row align-items-center gap p-5">
         <div class="col-lg-6 d-flex justify-content-start year-center py-5">
           <img src="images/pana.png" class="img-fluid">
 
         </div>
-        <div class="col-lg-6 fonts">
+        <div class="col-lg-6 fonts ">
           <h1>How to design your site footer like we did</h1>
           <p class="mt-3">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt
             molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices
@@ -296,14 +252,15 @@
       </div>
     </div>
   </section>
+  <!--End Design Your Site Section-->
   <!-- COUSTOMER SECTION -->
   <section class="customer section" id="testimonials">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5 d-flex justify-content-start ">
+        <div class="col-lg-5 d-flex justify-content-start p-5 ">
           <img src="images/image 9.png" class="img-fluid">
         </div>
-        <div class="col-lg-7 justify-content-start">
+        <div class="col-lg-7 justify-content-start p-5">
           <p>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt
             ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut
             molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit.
@@ -329,11 +286,12 @@
       </div>
     </div>
   </section>
+<!--End Customer Section-->
 
   <!-- MARKETING SECTION -->
   <section class="marketing section" id="products">
     <div class="container">
-      <div class="row justify-content-center text-center mb-4 py-5">
+      <div class="row justify-content-center text-center mb-4 py-5 m-auto">
         <h4>Caring is the new marketing</h4>
         <p>The Nexcent blog is the best place to read about the latest membership insights,<br>  trends and more. See who's
           joining the community, read about how our community <br> are increasing their membership income and lot's more.​
@@ -374,9 +332,9 @@
           </div>
         </div>
       </div>
-
     </div>
   </section>
+  <!--End Marketing Section-->
   <!-- get demo -->
   <section class="get-demo " >
     <div class="container">
@@ -386,6 +344,8 @@
     </div>
       </div>
   </section>
+  <!-- End Get Demo -->
+
   <!-- FOOTER SECTION -->
   <footer id="footer" class="footer bg-dark">
 
@@ -431,17 +391,13 @@
               <button class="btn btn-outline-secondary  " type="button" id="button-addon2"><img src="Vector(1).png"><i class="fa-solid fa-paper-plane"></i></button>
             </div>
           </div>
-
         </div>
       </div>
     </div
 
 
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-  
+    
   </body>
 </html>
