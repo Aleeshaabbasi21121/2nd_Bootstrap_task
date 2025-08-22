@@ -5,53 +5,32 @@
 }body{
     overflow-x: hidden;
 }
-.navbar-brand{
-    font-size: 2rem;
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.navbar-nav li{
+    padding: 0 10px;
 
 }
-.navbar-brand:hover{
-    color: black;
+.navbar-nav li a{
+     font-weight: 600;
+     float: right;
+     text-align: left;
+    color:#717171;
 }
-.nav-link{
-    margin-right: 10px;
-    margin-left: 10px;
-    color: black;
-    text-transform: uppercase;
-}
-.nav-link:hover{
-    color: black;
-}
-
 .years{
     color: green;
 }
 .carousel.slide {
-    background-color:whitesmoke;
+    background-color:#F5F7FA;
 }
 .customer.section{
-    background-color: whitesmoke;
+    background-color: #F5F7FA;
 }
 .get-demo{
-    background-color: whitesmoke;
+    background-color: #F5F7FA;
 }
 .helping-local.section{
-    background-color: whitesmoke;
+    background-color: #F5F7FA;
 }
 .none{
     list-style: none;
     padding: 0;
 }
-.nav ul li a:hover {
-      color: lightseagreen;
-      transform: translateY(-5px); /* moves up */
-    }
-.nav ul li a {
-      color: white;
-      text-decoration: none;
-      font-size: 18px;
-      position: relative;
-      padding: 5px 0;
-      transition: all 0.3s ease;  /* smooth animation */
-    }
