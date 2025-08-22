@@ -20,12 +20,44 @@
 }
 .carousel.slide {
     background-color:#F5F7FA;
+    margin-top: 45px;
+    margin-bottom: -20px;
+    padding-bottom: -20px;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+.carousel-indicators{
+    margin-bottom: -80px;
 }
 .customer.section{
     background-color: #F5F7FA;
 }
+.three-years{
+    margin-top: -10px;
+}
+#section{
+    margin-top: -40px;
+}
+#testimonials{
+    margin-top: -35px;
+}
+#products{
+    margin-top: -15px;
+}
+.row {
+    margin-top: -68px;
+}
+.card{
+    margin-left:35px ;
+    background-color: #F5F7FA;
+      position: relative;
+     bottom: 75px;   /* moves element 20px down */
+}
+
 .get-demo{
     background-color: #F5F7FA;
+    margin-top: -15px;
 }
 .helping-local.section{
     background-color: #F5F7FA;
