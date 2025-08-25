@@ -58,9 +58,20 @@ body{
       position: relative;
      bottom: 75px;   /* moves element 20px down */
 }
+.stats-item-1{
+    margin-top: 80px;
+}
+.stats-item{
+    padding-top: -25px;
+    margin-top: 10px;
+}
 .get-demo{
     background-color: #F5F7FA;
     margin-top: -15px;
+}
+.fa-solid{
+    color: green;
+    
 }
 .helping-local.section{
     background-color: #F5F7FA;
