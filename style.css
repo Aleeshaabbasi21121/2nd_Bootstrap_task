@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}body{
+}
+body{
     overflow-x: hidden;
 }
 .navbar-nav li{
@@ -30,6 +31,9 @@
 .carousel-indicators{
     margin-bottom: -80px;
 }
+.carousel-inner{
+    margin-bottom: -30px;
+}
 .customer.section{
     background-color: #F5F7FA;
 }
@@ -54,7 +58,6 @@
       position: relative;
      bottom: 75px;   /* moves element 20px down */
 }
-
 .get-demo{
     background-color: #F5F7FA;
     margin-top: -15px;
@@ -65,4 +68,11 @@
 .none{
     list-style: none;
     padding: 0;
+}
+#footer{
+    margin-top: 5px;
+    padding-bottom: -20px;
+}
+.footer-top{
+    margin-top: 40px;
 }
